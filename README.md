@@ -1,19 +1,5 @@
 # Homelab - The Design
 
-The people listed in the following table provided key input into this design:
-
-**Participants**
-
-|Name|Email|Role|
-|---|---|---|
-|Christian Mohn|christian@drible.net|Owner|
-
-**Version History**
-
-|Date|Revision|Author|Comments|
-|---|---|---|---|
-|14.07.2016|0.0.1|CM|Initial Checkin
-
 ## Executive Summary
 
 The purpose of this document is to describe in necessary detail the current project description to represent a suitable model generating Conceptual, Logical and Physical designs for HomeLab. The Conceptual Design documentation presents the proposed structure of the datacenter transformation project, such as the requirements, assumptions and risks involved.
@@ -30,6 +16,24 @@ There was a need to move away from Windows based services for Directory, File, D
 A secondary reason to move away from the existing infrastructure, is to become more proficient in deploying infrastructure services based on open source and Linux.
 
 By developing the documentation in this manner, the idea is for it to work as an execise in writing enterprise design documents.
+
+
+**Participants**
+
+The people listed in the following table provided key input into this design:
+
+
+|Name|Email|Role|
+|---|---|---|
+|Christian Mohn|christian@drible.net|Owner|
+
+**Version History**
+
+|Date|Revision|Author|Comments|
+|---|---|---|---|
+|14.07.2016|0.0.1|CM|Initial Checkin
+|14.07.2016|0.0.2|CM|Sectioned documents / re-organized a bit
+
 
 ---
 
