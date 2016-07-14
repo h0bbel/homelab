@@ -35,8 +35,8 @@ By developing the documentation in this manner, the idea is for it to work as an
 
 #Linked documents
 
-[Requirements, Constraints, Assumptions and Risks](RCAR.md)
-[Configuration](Configuration.md)
+- [Requirements, Constraints, Assumptions and Risks](RCAR.md)
+- [Configuration](Configuration.md)
 
 ---
 
