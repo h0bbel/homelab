@@ -75,7 +75,3 @@ Gateway: _192.168.5.2_
 
 ## SSL Certificates
 https://letsencrypt.org
-
----
-## Diagrams
----
