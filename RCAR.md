@@ -15,8 +15,10 @@
 ## Constraints
 |ID|Constraint|Source|Date|
 |---|---|---|---|
-|CO101|Existing hardware must be used|CM|14/07/2016
-|CO102|No budget for licenses|CM|14/07/2016
+|CO101|Existing server hardware must be used|CM|14/07/2016
+|CO102|Existing network infrastructure must be used|CM|14/07/2016
+|CO103|Existing storage hardware must be used|CM|14/07/2016
+|CO104|No budget for licenses|CM|14/07/2016
 
 ## Assumptions
 |ID|Assumption|Source|Date|

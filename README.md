@@ -2,20 +2,22 @@
 
 ## Executive Summary
 
-The purpose of this document is to describe in necessary detail the current project description to represent a suitable model generating Conceptual, Logical and Physical designs for HomeLab. The Conceptual Design documentation presents the proposed structure of the datacenter transformation project, such as the requirements, assumptions and risks involved.
+The purpose of this document is to describe in necessary detail the current project description to represent a suitable model generating Conceptual, Logical and Physical designs for HomeLab. 
 
-The logical design is based on the conceptual design, and provides a more detailed view of the components and relationships.
+The [Conceptual Design](Conceptual.md) presents the proposed structure of the datacenter transformation project, such as the requirements, assumptions and risks involved.
 
-This in turn results in a physical design that can be used to build the entire stack of services required.
+The [Logical Design](Logical.md) is based on the conceptual design, and provides a more detailed view of the components and relationships.
+
+This in turn results in a [Physical Design](Physical.md) that can be used to build the entire stack of services.
 
 
-## Business Background
+## "Business" Background
 
-There was a need to move away from Windows based services for Directory, File, DNS and DHCP services, simply because those requires licenses that are soon to be unavailable.
+There was a need to move away from Microsoft Windows based services for Directory, File, DNS and DHCP services, simply because those requires licenses that are soon to be unavailable. It is also imperative that no new HW is to be purchased, and the new design needs to be able to run on existing infrastructure.
 
 A secondary reason to move away from the existing infrastructure, is to become more proficient in deploying infrastructure services based on open source and Linux.
 
-By developing the documentation in this manner, the idea is for it to work as an execise in writing enterprise design documents.
+*By developing the documentation in this manner, the idea is for it to work as an execise in writing enterprise design documents.*
 
 
 **Participants**
@@ -50,7 +52,7 @@ The people listed in the following table provided key input into this design:
 
 ## Identified required services
   - **DHCP / DNS**
-  - **VPN**
+  - **Remote Access / VPN**
   - **File services**
   - **IP Address Management**
   - **Reverse proxying of incoming http and https requests**
