@@ -32,7 +32,7 @@ The people listed in the following table provided key input into this design:
 |Date|Revision|Author|Comments|
 |---|---|---|---|
 |14.07.2016|0.0.1|CM|Initial Checkin
-|14.07.2016|0.0.2|CM|Sectioned documents / re-organized a bit
+|14.07.2016|0.0.2|CM|Sectioned into several documents / re-organized a bit
 
 
 ---
@@ -42,6 +42,8 @@ The people listed in the following table provided key input into this design:
 - [Requirements, Constraints, Assumptions and Risks](RCAR.md)
 - [Configuration](Configuration.md)
 - [Diagrams](Diagrams.md)
+- [Existing Hardware](ExistingHardware.md)
+- [External Resources](ExternalResources.md)
 
 
 ---
