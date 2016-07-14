@@ -55,6 +55,7 @@ The people listed in the following table provided key input into this design:
   - **IP Address Management**
   - **Reverse proxying of incoming http and https requests**
   - **Shared media storage**
+  - **Jumphost**
 
 ## Nice to have services
 - **Directory Services**
