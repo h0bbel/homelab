@@ -12,4 +12,5 @@
 ## Logical Design Diagram
 
 ---
+
 ## Physical Design Diagram
