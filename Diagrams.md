@@ -5,7 +5,7 @@
 
 ![Conceptual Design Diagram](https://github.com/h0bbel/homelab/blob/master/images/conceptual.png "Conceptual Design Diagram")
 
-[omnigraffle](https://github.com/h0bbel/homelab/blob/master/omnigraffle/conceptual.graffle)
+[omnigraffle file](https://github.com/h0bbel/homelab/blob/master/omnigraffle/conceptual.graffle)
 
 
 ---
