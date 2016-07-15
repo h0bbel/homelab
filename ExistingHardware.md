@@ -15,6 +15,7 @@
 |telenorap|ZyXEL P8702N|192.168.5.4
 
 ## FreeNAS
+
 |Hostname|Model|CPU|Memory|Storage|
-|---|---|---|---|
+|---|---|---|---|--|
 |freenas|HP MicroServer N36L|AMD Athlon(tm) II Neo N36L Dual-Core|8GB|3.5TB
