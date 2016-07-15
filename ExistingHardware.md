@@ -17,5 +17,5 @@
 ## FreeNAS
 
 |Hostname|Model|CPU|Memory|Storage|
-|---|---|---|---|--|
+|---|---|---|---|---|
 |freenas|HP MicroServer N36L|AMD Athlon(tm) II Neo N36L Dual-Core|8GB|3.5TB
