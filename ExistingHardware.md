@@ -1,10 +1,10 @@
 #Existing Hardware
 
 ## ESXi Hosts
-|Hostname|Model|CPU|Memory|
+|Hostname|IP|Model|CPU|Memory|
 |---|---|---|---|
-|ESXi01|Dell Inc. Precision WorkStation T7500|Intel(R) Xeon(R) CPU X5560 @ 2.80GHz|16GB|
-|ESXi02|Dell Inc. Precision WorkStation T7500|Intel(R) Xeon(R) CPU X5560 @ 2.80GHz|20GB|
+|ESXi01|192.168.5.9|Dell Inc. Precision WorkStation T7500|Intel(R) Xeon(R) CPU X5560 @ 2.80GHz|16GB|
+|ESXi02|192.168.5.13Dell Inc. Precision WorkStation T7500|Intel(R) Xeon(R) CPU X5560 @ 2.80GHz|20GB|
 
 ##Networking Equipment
 
