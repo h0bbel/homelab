@@ -48,6 +48,7 @@ The people listed in the following table provided key input into this design:
 - [Diagrams](Diagrams.md)
 - [Existing Hardware](ExistingHardware.md)
 - [External Resources](ExternalResources.md)
+- [Operational Resources](operational/OperationalResources.md)
 
 
 ---

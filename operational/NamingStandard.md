@@ -30,7 +30,7 @@ Site|Description
 |vpn|vpn termination|
 |web|web server|
 |ipm|IPAM server|
-|oc|owncloud|
+|oc|ownCloud|
 
 
 **Note:**
