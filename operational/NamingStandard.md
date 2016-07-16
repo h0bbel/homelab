@@ -15,6 +15,8 @@ Site|Description
 |---|---|
 |hl|Home Lab|
 |wl|Work Lab|
+|aws|amazon web services|
+
 
 ---
 

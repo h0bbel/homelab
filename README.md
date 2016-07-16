@@ -17,7 +17,7 @@ There was a need to move away from Microsoft Windows based services for Director
 
 A secondary reason to move away from the existing infrastructure, is to become more proficient in deploying infrastructure services based on open source and Linux.
 
-*By developing the documentation in this manner, the idea is for it to work as an execise in writing enterprise design documents.*
+*By developing the documentation in this manner, the idea is for it to work as an exercise in writing enterprise design documents.*
 
 
 **Participants**
