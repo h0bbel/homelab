@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Homelab by h0bbel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Homelab</h1>
+      <h2 class="project-tagline">Full tilt mad scientist documentation for the homelab environment.</h2>
+      <a href="https://github.com/h0bbel/homelab" class="btn">View on GitHub</a>
+      <a href="https://github.com/h0bbel/homelab/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/h0bbel/homelab/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="homelab---the-design" class="anchor" href="#homelab---the-design" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Homelab - The Design</h1>
+
+<h2>
+<a id="executive-summary" class="anchor" href="#executive-summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Executive Summary</h2>
+
+<p>The purpose of this document is to describe in necessary detail the current project description to represent a suitable model generating Conceptual, Logical and Physical designs for HomeLab. </p>
+
+<p>The <a href="Conceptual.md">Conceptual Design</a> presents the proposed structure of the datacenter transformation project, such as the requirements, assumptions and risks involved.</p>
+
+<p>The <a href="Logical.md">Logical Design</a> is based on the conceptual design, and provides a more detailed view of the components and relationships.</p>
+
+<p>This in turn results in a <a href="Physical.md">Physical Design</a> that can be used to build the entire stack of services.</p>
+
+<h2>
+<a id="business-background" class="anchor" href="#business-background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>"Business" Background</h2>
+
+<p>There was a need to move away from Microsoft Windows based services for Directory, File, DNS and DHCP services, simply because those requires licenses that are soon to be unavailable. It is also imperative that no new HW is to be purchased, and the new design needs to be able to run on existing infrastructure.</p>
+
+<p>A secondary reason to move away from the existing infrastructure, is to become more proficient in deploying infrastructure services based on open source and Linux.</p>
+
+<p><em>By developing the documentation in this manner, the idea is for it to work as an execise in writing enterprise design documents.</em></p>
+
+<p><strong>Participants</strong></p>
+
+<p>The people listed in the following table provided key input into this design:</p>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Christian Mohn</td>
+<td><a href="mailto:christian@drible.net">christian@drible.net</a></td>
+<td>Owner</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Version History</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Revision</th>
+<th>Author</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14.07.2016</td>
+<td>0.0.1</td>
+<td>CM</td>
+<td>Initial Checkin</td>
+</tr>
+<tr>
+<td>14.07.2016</td>
+<td>0.0.2</td>
+<td>CM</td>
+<td>Sectioned into several documents / re-organized a bit</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h1>
+<a id="linked-documents" class="anchor" href="#linked-documents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linked documents</h1>
+
+<ul>
+<li><a href="RCAR.md">Requirements, Constraints, Assumptions and Risks</a></li>
+<li><a href="Configuration.md">Configuration</a></li>
+<li><a href="Diagrams.md">Diagrams</a></li>
+<li><a href="ExistingHardware.md">Existing Hardware</a></li>
+<li><a href="ExternalResources.md">External Resources</a></li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="identified-required-services" class="anchor" href="#identified-required-services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Identified required services</h2>
+
+<ul>
+<li><strong>DHCP / DNS</strong></li>
+<li><strong>Remote Access / VPN</strong></li>
+<li><strong>File services</strong></li>
+<li><strong>IP Address Management</strong></li>
+<li><strong>Reverse proxying of incoming http and https requests</strong></li>
+<li><strong>Shared media storage</strong></li>
+<li><strong>Jumphost</strong></li>
+</ul>
+
+<h2>
+<a id="nice-to-have-services" class="anchor" href="#nice-to-have-services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Nice to have services</h2>
+
+<ul>
+<li><strong>Directory Services</strong></li>
+<li><strong>PXE boot for LAB network</strong></li>
+<li><strong>Automated requests for IP addresses (static) from IPAM</strong></li>
+<li><strong>Local management interface list ala JumpSquares</strong></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/h0bbel/homelab">Homelab</a> is maintained by <a href="https://github.com/h0bbel">h0bbel</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
