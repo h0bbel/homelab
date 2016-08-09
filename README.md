@@ -36,7 +36,7 @@ The people listed in the following table provided key input into this design:
 |14.07.2016|0.0.1|CM|Initial Checkin
 |14.07.2016|0.0.2|CM|Sectioned into several documents / re-organized a bit
 |16.07.2016|0.0.3|CM|Diagrams and Naming Standard added.
-
+|09.08.2016|0.0.4|CM|External Dynamic DNS Service section
 
 
 ---
@@ -49,12 +49,14 @@ The people listed in the following table provided key input into this design:
 - [Existing Hardware](ExistingHardware.md)
 - [External Resources](ExternalResources.md)
 - [Operational Resources](operational/OperationalResources.md)
+- [External Dynamic DNS](ExternalDDNS.md)
 
 
 ---
 
 ## Identified required services
   - **DHCP / DNS**
+  - **[External Dynamic DNS](ExternalDDNS.md)**
   - **Remote Access / VPN**
   - **File services**
   - **IP Address Management**

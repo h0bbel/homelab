@@ -34,7 +34,7 @@ Site|Description
 
 
 **Note:**
-application specific names can also be used (eg. _oc = ownCloud_)
+application specific aliases can also be used (eg. _oc = ownCloud_)
 
 
 
