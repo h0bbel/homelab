@@ -45,7 +45,7 @@ else
 
 # hostname: test.example.com
 	id=51234567890
-	name=test.vninja.com
+	name=test.example.com
 
 	# Update record:
 	curl -s -k  -L -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d 'a=rec_edit&tkn='$token'&email='$email'&z='$z'&id='$id'&type='$type'&name='$name'&ttl='$ttl'&content='$content 'https://www.cloudflare.com/api_json.html'
