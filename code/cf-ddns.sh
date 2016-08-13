@@ -35,7 +35,6 @@ then
   logger -s $cfddns "[INFO] No IP change detected" # Write to Syslog
 
 else
-  #echo "IP change detected, updating CloudFlare trough API. Old IP was "$OLDIP" - New IP is " $MYIP
   logger -s $cfddns "[INFO] IP change detected, updating CloudFlare trough API. Old IP was "$OLDIP" - New IP is " $MYIP 			# Write to syslog
 
 
