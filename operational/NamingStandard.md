@@ -31,6 +31,8 @@ Site|Description
 |web|web server|
 |ipm|IPAM server|
 |oc|ownCloud|
+|jh|SSH Jumphost|
+
 
 
 **Note:**

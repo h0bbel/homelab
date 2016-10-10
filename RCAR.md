@@ -10,7 +10,7 @@
 |RE105|IP address management (IPAM)|CM|14/07/2016
 |RE106|Reverse Proxy services|CM|14/07/2016
 |RE107|Shared media storage|CM|14/07/2016
-|RE108|Media services|CM|14/07/2016
+|RE108|Plex Media services|CM|10/10/2016
 |RE109|External Dynamic DNS Service|CM|09/08/2016
 
 

@@ -37,7 +37,8 @@ The people listed in the following table provided key input into this design:
 |14.07.2016|0.0.2|CM|Sectioned into several documents / re-organized a bit
 |16.07.2016|0.0.3|CM|Diagrams and Naming Standard added.
 |09.08.2016|0.0.4|CM|External Dynamic DNS Service section
-|10.10.2016|0.0.5|CM|External IPAM, VPN/Jumphost and HAProxy section (Combined VPN/Jumphost in ine section)
+|10.10.2016|0.0.5|CM|External IPAM, VPN/Jumphost and HAProxy section (Combined VPN/Jumphost in one section)
+|10.10.2016|0.0.6|CM|Added File Services section. Merged File Services and Shared Media Storage in to [File services](operational/fileservices.md). Added Plex Media Server as an required service. Added Log Insight link under Log Management Solution / "Nice to have services"
 
 
 ---
@@ -61,15 +62,14 @@ The people listed in the following table provided key input into this design:
   - **DHCP / DNS**
   - **[External Dynamic DNS](operational/ExternalDDNS.md)**
   - **[Remote Access / VPN](operational/RemoteAccess-VPN.md)**
-  - **File services**
+  - **[File services](operational/fileservices.md)**
   - **[IP Address Management](operational/ipam.md)**
   - **[Reverse proxying of incoming http and https requests](operational/haproxy.md)**
-  - **Shared media storage**
-  - 
+  - **[Plex Media Server](operational/plex.md)**
 
 ## Nice to have services
 - **Directory Services**
 - **PXE boot for LAB network**
 - **Automated requests for IP addresses (static) from [IPAM](operational/ipam.md)**
 - **Local management interface list ala JumpSquares**
-- **Log management solution**
+- **[Log management solution](operational/loginsight.md)**
