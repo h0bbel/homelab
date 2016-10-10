@@ -72,3 +72,4 @@ The people listed in the following table provided key input into this design:
 - **PXE boot for LAB network**
 - **Automated requests for IP addresses (static) from [IPAM](operational/ipam.md)**
 - **Local management interface list ala JumpSquares**
+- **Log management solution**
