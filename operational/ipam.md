@@ -7,8 +7,8 @@ IP Address Management is important in larger networks, but also small homelab en
 ## Requirements for IPAM -> [RE111]
 |ID|Requirement|Source|Date|
 |---|---|---|---|
-|RE111.1|Low cost, or free service|CM|10.10.2016
-|RE111.2|Automatic detection of new devices|CM|10.10.2016
+|RE105.1|Low cost, or free service|CM|10.10.2016
+|RE105.2|Automatic detection of new devices|CM|10.10.2016
 
 
 Based on the requirements above, phpipam was selected as the [IPAM](IPAM) solution of choice.

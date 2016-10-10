@@ -8,8 +8,8 @@ Due to the fact that the internet connection from the lab location is hidden beh
 ## Requirements for IPAM -> [RE111]
 |ID|Requirement|Source|Date|
 |---|---|---|---|
-|RE111.1|Low cost, or free service|CM|10.10.2016
-|RE111.2|Automatic proxying of incoming requests, based on hostname|CM|10.10.2016
+|RE106.1|Low cost, or free service|CM|10.10.2016
+|RE106.2|Automatic proxying of incoming requests, based on hostname|CM|10.10.2016
 
 
 Based on the requirements above, [HAproxy] was selected as the reverse proxy  solution of choice.
