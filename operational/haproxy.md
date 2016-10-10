@@ -12,7 +12,11 @@ Due to the fact that the internet connection from the lab location is hidden beh
 |RE106.2|Automatic proxying of incoming requests, based on hostname|CM|10.10.2016
 
 
-Based on the requirements above, [HAproxy] was selected as the reverse proxy  solution of choice.
+Based on the requirements above, [HAproxy] was selected as the reverse proxy  solution of choice. HAProxy is set up to redirect incoming traffic based on referrer (hostname). hostname1.tld redirects to internal ip for hostname1.local and hostname2.tld redirects to internal ip for hostname2.local
+
+### Configuration
+
+COnfiguration details will come later, the current setup works (in theory/lab), but needs to be verified.
 
 
 [HAProxy]:http://www.haproxy.org
