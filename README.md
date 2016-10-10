@@ -37,6 +37,7 @@ The people listed in the following table provided key input into this design:
 |14.07.2016|0.0.2|CM|Sectioned into several documents / re-organized a bit
 |16.07.2016|0.0.3|CM|Diagrams and Naming Standard added.
 |09.08.2016|0.0.4|CM|External Dynamic DNS Service section
+|10.10.2016|0.0.5|CM|External IPAM, VPN/Jumphost and HAProxy section (Combined VPN/Jumphost in ine section)
 
 
 ---
@@ -49,23 +50,25 @@ The people listed in the following table provided key input into this design:
 - [Existing Hardware](ExistingHardware.md)
 - [External Resources](ExternalResources.md)
 - [Operational Resources](operational/OperationalResources.md)
-- [External Dynamic DNS](ExternalDDNS.md)
+- [External Dynamic DNS](operational/ExternalDDNS.md)
+- [IPAM](operational/ipam.md)
+- [HAProxy](operational/haproxy.md)
 
 
 ---
 
 ## Identified required services
   - **DHCP / DNS**
-  - **[External Dynamic DNS](ExternalDDNS.md)**
-  - **Remote Access / VPN**
+  - **[External Dynamic DNS](operational/ExternalDDNS.md)**
+  - **[Remote Access / VPN](operational/RemoteAccess-VPN.md)**
   - **File services**
-  - **IP Address Management**
-  - **Reverse proxying of incoming http and https requests**
+  - **[IP Address Management](operational/ipam.md)**
+  - **[Reverse proxying of incoming http and https requests](operational/haproxy.md)**
   - **Shared media storage**
-  - **Jumphost**
+  - 
 
 ## Nice to have services
 - **Directory Services**
 - **PXE boot for LAB network**
-- **Automated requests for IP addresses (static) from IPAM**
+- **Automated requests for IP addresses (static) from [IPAM](operational/ipam.md)**
 - **Local management interface list ala JumpSquares**
