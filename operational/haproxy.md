@@ -5,7 +5,7 @@
 Due to the fact that the internet connection from the lab location is hidden behind one shared public IP, there is a need to reverse proxy incoming requests for http/https (80/443) traffic.
 
 
-## Requirements for IPAM -> [RE111]
+## Requirements for IPAM -> [RE106]
 |ID|Requirement|Source|Date|
 |---|---|---|---|
 |RE106.1|Low cost, or free service|CM|10.10.2016
